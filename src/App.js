@@ -5,7 +5,7 @@ import AppUsingClass from './AppUsingClass'
 
 function App() {
   return (
-    <div style={{display: "inline-flex"}}>
+    <div style={{display: "flex", justifyContent: "center"}}>
       <AppUsingClass />
       <AppUsingHooks />
     </div>
